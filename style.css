@@ -493,7 +493,7 @@ button {
     .next-container {
         grid-auto-flow: column;
         max-width: 74rem;
-        padding: 3rem 2.25rem;
+        padding: 4rem 2.25rem;
         grid-template-columns: 40% 1fr;
     }
 
@@ -543,7 +543,7 @@ button {
 
     .articles-container {
         text-align: left;
-        padding: 5.5rem 2.5rem 5rem;
+        padding: 7rem 2.5rem 5rem;
         grid-gap: 3.2rem;
         justify-items: start;
     }
