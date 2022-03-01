@@ -100,7 +100,7 @@ button {
     left: 50%;
     transform: translateX(-50%);
     transform-origin: left;
-    background-color: var(--cor-cinza-muito-claro);
+    background-color: var(--cor-branco);
     border-radius: 0.4rem;
     width: 100%;
     padding: 2rem;
@@ -162,7 +162,7 @@ button {
     transition: all 0.3s;
 }
 .header {
-    background-color: var(--cor-cinza-muito-claro);
+    background-color: var(--cor-branco);
     padding: 1.4rem 1.5rem;
     position: fixed;
     top: 0;
@@ -493,7 +493,7 @@ button {
     .next-container {
         grid-auto-flow: column;
         max-width: 74rem;
-        padding: 0 2.25rem;
+        padding: 3rem 2.25rem;
         grid-template-columns: 40% 1fr;
     }
 
@@ -502,7 +502,7 @@ button {
         left: unset;
         background-size: 107%;
         right: -42%;
-        top: -32%;
+        top: -36%;
         height: 113%;
 
     }
@@ -513,12 +513,12 @@ button {
     }
 
     .next-img img {
-        margin-top: -19%;
+        margin-top: -23.5%;
         max-width: 48rem;
         transform: translateX(22.8%);
         width: 100%;
     }
-
+    
     .next-content {
         max-width: unset;
         text-align: left;
@@ -527,12 +527,7 @@ button {
         grid-gap: 1.4rem;
         height: 80%;
     }
-
-    .easybank {
-        margin-top: -21%;
-        display: grid;
-        justify-items: center;
-    }
+  
 
     .easybank-container {
         text-align: left;
@@ -655,10 +650,9 @@ button {
         margin-top: -15.8125rem;
         display: grid;
         justify-items: center;
-        padding: 6.6rem 0 6.4rem;
+        padding: 10rem 0 6.4rem;
     }
-
-    .easybank-container {
+       .easybank-container {
         max-width: 69.4rem;
         padding: 0;
     }
